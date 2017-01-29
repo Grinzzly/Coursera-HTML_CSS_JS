@@ -1,0 +1,87 @@
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom : 15px;
+  text-align :center;
+  font-size : 175%;
+}
+div#container{
+}
+
+div#inner {
+  border: 1px solid black;
+  background-color : #369;
+  height: 150px;
+  font-family: Helvetica;
+  margin: 1% 1% 2% 1%;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  overflow: auto;
+}
+
+.title{
+  font-size : 125%;
+  font-weight: bold;
+  border: 1px solid black;
+  width: 120px;
+  height: 35px;
+  margin : 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 5px;
+  color:#2f4779;
+  background-color : #dfe3ee;
+  overflow: visible;
+  text-align:center;
+  vertical-align:middle;
+  line-height: 170%;
+}
+
+p#cont{
+  font-family: Verdana, Geneva, sans-serif;
+  position: absolute;
+  top: 37px;
+  left: 10px;
+  margin : auto;
+}
+
+.html{
+  color : #F8F8FF;
+  background-color : #D2691E;
+}
+
+.js{
+  color : #000000;
+  background-color : #effc09;
+}
+
+.row {
+  width: 98%;
+}
+
+@media (min-width: 992px) {
+  .col-lg{
+    float: left;
+    border: 1px solid green;
+    width: 31.3%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3{
+    float: left;
+    border: 4px solid blue;
+  }
+  .col-md-1 {
+    width: 48%;
+  }
+  .col-md-2 {
+    width: 48%;
+  }
+  .col-md-3 {
+    width: 98%;
+}
