@@ -1,0 +1,94 @@
+body {
+	font-family: 'Arvo', serif;
+	color: black;
+}
+.header-nav {
+	background-color: #369;
+}
+.navbar-collapse{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+img{
+	width: 1.5em;
+	height: 1.5em;
+}
+.navbar-brand h1 {
+	font-family: 'Lobster Two', cursive;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	color: #1AD163;
+	line-height: .50;
+}
+#collapsable-nav{
+	padding-top: 5px;
+	background-color: cyan; 
+	font-size : 1.4em;	
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 5px;
+	overflow: hidden;
+}
+ #collapsable-nav hr{
+	border: 1px solid black;
+}
+#nav-list p > a {
+	color: maroon;
+	text-decoration: none;
+}
+
+
+.h2text {
+	text-transform: capitalize;
+	padding-top: 50px;
+}
+.main-content {
+	background-color: #C0C0C0;
+	border-radius: 5px;
+}
+.main-content a {
+	text-decoration: none;
+	color: green;
+}
+.container-1 {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+#collapsable-nav{
+	background-color: #369;
+	border: none;
+}
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+#collapsable-nav{
+	background-color: #369;
+	border: none;
+}
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+#collapsable-nav{
+	background-color: #369;
+	border: none;
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #collapsable-nav li {
+    font-size: 1.2em;
+  }
+  #collapsable-nav li p {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
