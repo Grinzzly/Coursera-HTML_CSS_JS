@@ -1,6 +1,10 @@
 
 # Coursera-HTML_CSS_JS
 
-Let's receive some knowledge
+<a href="https://grinzzly.github.io/Coursera-HTML_CSS_JS/module02_task/" target="_blank">Module 02</a><br>
+<a href="https://grinzzly.github.io/Coursera-HTML_CSS_JS/module03_task/" target="_blank">Module 03</a><br>
+<a href="https://grinzzly.github.io/Coursera-HTML_CSS_JS/module04_task/" target="_blank">Module 04</a><br>
+
+Lets receive some knowledge
 ​
 @Grinzzly
